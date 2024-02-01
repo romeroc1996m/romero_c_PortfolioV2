@@ -26,25 +26,29 @@
 .img3 {
     grid-column: 1/3;
     margin-top: 190px;
+    
 }
 
 .social {
     width: 54px;
     height: 41px;
     position: relative;
-    grid-column: 2/2;
+    margin-top: 445px;
 }
 
 .social2 {
-    width: 54px;
-    height: 41px;
+    width: 60px;
+    height: 51px;
     position: relative;
+    margin-top: 440px;
 }
 
 .social3 {
     width: 54px;
     height: 41px;
     position: relative;
+    margin-left: 75px;
+    margin-top: 110px;
 }
 
 @media screen and (min-width:768px) {
