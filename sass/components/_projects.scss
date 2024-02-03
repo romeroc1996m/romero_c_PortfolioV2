@@ -1,6 +1,6 @@
 
 .projectDes {
-    height: 400px;
+    height: 550px;
     background-color: #001219;
 }
 
@@ -11,7 +11,7 @@
 
 .title-project {
     font-family: 'DM Serif Display', serif;
-    font-size: 70px;
+    font-size: 75px;
     color: #E9D8A6;
     opacity: 30%;
     grid-column: 1/4;
@@ -35,10 +35,10 @@
 }
 
 .project1 {
-    grid-column: 3/10; 
+    grid-column: 1/5; 
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 80%;
     transition: 0.5s;
     display: flex;
     justify-content: center;
