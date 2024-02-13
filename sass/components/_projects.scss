@@ -265,6 +265,49 @@
 
    @media screen and (min-width:768px) {
 
+    .button-project {
+        appearance: none;
+        background-color: transparent;
+        border: 2px solid #F6FAFB;
+        border-radius: 29px;
+        box-sizing: border-box;
+        color: #F6FAFB;
+        cursor: pointer;
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        line-height: normal;
+        margin: 0;
+        min-height: 50px;
+        min-width: 150px;
+        outline: none;
+        padding: 1em 2.3em;
+        text-align: center;
+        text-decoration: none;
+        transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        will-change: transform;
+       }
+       
+       .button-project:disabled {
+        pointer-events: none;
+       }
+       
+       .button-project:hover {
+        color: #fff;
+        background-color: #1A1A1A;
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+       }
+       
+       .button-project:active {
+        box-shadow: none;
+        transform: translateY(0);
+       }
+
     .title-project {
         font-size: 80px;
         color: #E9D8A6; 
