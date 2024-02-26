@@ -1,0 +1,61 @@
+body {
+  background-color: #001219;
+  color: #E9D8A6;
+}
+
+
+#scramble {
+  grid-column: 3/12;
+  font-size: 100px;
+  margin-top: 50px;
+}
+
+.whyTitle {
+  grid-column: 2/5;
+  font-family: 'DM Serif Display', serif;
+  font-size: 80px;
+}
+
+.whyP {
+  grid-column: 6/12;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+//slider
+
+#slider-container {
+  overflow: hidden;
+  position: relative;
+  grid-column: 6/12;
+}
+
+#image-slider {
+  // make images display side by side as one long row
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-image {
+  max-width: 100%;
+  height: auto;
+}
+
+#prev-btn, #next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  cursor: pointer;
+  padding: 20px;
+  border: none;
+  background-color: rgba(255,255,255,.6);
+}
+
+#prev-btn {
+  left: 0px;
+}
+
+#next-btn {
+  right: 0px;
+}
