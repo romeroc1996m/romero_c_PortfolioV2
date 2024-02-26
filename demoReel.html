@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat&display=swap" rel="stylesheet">
+  
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    
+    <script defer src="js/ScrambleTextPlugin.js" ></script>
+    <script defer src="js/studyCase.js"></script>
+    <script defer src="js/main.js"></script>
+    
+    <title>Study Case - Camila Romero portfolio</title>
+</head>
+<body>
+
+    <header class="grid-con" id="main-header">
+        <nav id="main-nav">
+            <h2 class="hidden">Header Navigation</h2> 
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">Projects</a></li>
+                <li><a href="#demoReel.html">DemoReel</a></li>
+                <li><a href="#contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="main-logo">
+            <a href="index.html"><img src="images/Logo.svg" alt="Logo"></a>
+        </div>
+
+        <div id="burger-nav">
+            <h2 class="hidden">Main Navigation</h2>
+            <input type="checkbox" id="hamburger">
+            <label for="hamburger">
+                <img src="images/burger.svg" alt="hamburger menu icon">
+            </label>
+            <div id="burger-con">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="demoReel.html">DemoReel</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="grid-con">              
+        <video class="col-span-full" controls>
+            <source src="video/DemoReelV3.mp4" type="video/mp4">
+            <source src="video/DemoReelV3.mp4" type="video/mp4">
+            <p>You're using very old browser, that doesn't support video playback.</p>
+        </video>
+    </div>
+
+</body>
+</html>
