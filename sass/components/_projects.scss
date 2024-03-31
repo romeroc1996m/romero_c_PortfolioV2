@@ -5,7 +5,7 @@
 }
 
 .project {
-    height: 2200px;
+    height: 3200px;
     background-color: #001219;
 }
 
@@ -220,6 +220,130 @@
     transform: scale(1);
 }
 
+.project7 {
+    grid-column: 1/5; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./../../images/project7.jpg');
+    background-position: center;
+    background-size: cover;
+ }
+
+ .project7 button {
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 10px;
+    color: #E9D8A6;
+}
+
+.project7:hover {
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.8) inset;
+}
+
+.project7:hover button {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.project8 {
+    grid-column: 1/5; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./../../images/project8.jpg');
+    background-position: center;
+    background-size: cover;
+ }
+
+ .project8 button {
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 10px;
+    color: #E9D8A6;
+}
+
+.project8:hover {
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.8) inset;
+}
+
+.project8:hover button {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.project9 {
+    grid-column: 1/5; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./../../images/project6.jpg');
+    background-position: center;
+    background-size: cover;
+ }
+
+ .project9 button {
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 10px;
+    color: #E9D8A6;
+}
+
+.project9:hover {
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.8) inset;
+}
+
+.project9:hover button {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.project10 {
+    grid-column: 1/5; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./../../images/project6.jpg');
+    background-position: center;
+    background-size: cover;
+ }
+
+ .project10 button {
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 10px;
+    color: #E9D8A6;
+}
+
+.project10:hover {
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.8) inset;
+}
+
+.project10:hover button {
+    opacity: 1;
+    transform: scale(1);
+}
+
  button {
     appearance: none;
     background-color: transparent;
@@ -420,6 +544,66 @@
         height: 350px;
     }
 
+    .project7 {
+        grid-column: 4/10;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        transition: .5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("./../../images/project7.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 350px;
+    }
+
+    .project8 {
+        grid-column: 4/10;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        transition: .5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("./../../images/project8.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 350px;
+    }
+
+    .project9 {
+        grid-column: 4/10;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        transition: .5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("./../../images/project9.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 350px;
+    }
+
+    .project10 {
+        grid-column: 4/10;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        transition: .5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("./../../images/project10.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 350px;
+    }
+
    }
 
    @media screen and (min-width:1200px) {
@@ -451,6 +635,22 @@
         grid-column: 7/12;
     }
 
+    .project7 {
+        grid-column: 2/7;
+    }
+
+    .project8 {
+        grid-column: 7/12;
+    }
+
+    .project9 {
+        grid-column: 2/7;
+    }
+
+    .project10 {
+        grid-column: 7/12;
+    }
+
     .project1 button {
         font-size: 20px;
    }    
@@ -472,6 +672,22 @@
     }
 
     .project6 button {
+        font-size: 20px;
+    }  
+
+    .project7 button {
+        font-size: 20px;
+    }  
+
+    .project8 button {
+        font-size: 20px;
+    }  
+
+    .project9 button {
+        font-size: 20pxñ
+    }  
+
+    .project10 button {
         font-size: 20px;
     }  
 
