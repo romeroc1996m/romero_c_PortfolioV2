@@ -576,15 +576,31 @@
    }
 
    @media screen and (min-width:1200px) {
-    .project {
-        height: 1500px;
-    }
+    // .project {
+    //     height: 1500px;
+    // }
 
     .project1 {
         grid-column: 2/7;
     }
 
+    .project8 {
+        grid-column: 7/12;
+    }
+
     .project2 {
+        grid-column: 2/7;
+    }
+
+    .project6 {
+        grid-column: 7/12;
+    }
+
+    .project9 {
+        grid-column: 2/7;
+    }
+
+    .project10 {
         grid-column: 7/12;
     }
 
@@ -600,25 +616,10 @@
         grid-column: 2/7;
     }
 
-    .project6 {
-        grid-column: 7/12;
-    }
-
     .project7 {
-        grid-column: 2/7;
-    }
-
-    .project8 {
         grid-column: 7/12;
     }
 
-    .project9 {
-        grid-column: 2/7;
-    }
-
-    .project10 {
-        grid-column: 7/12;
-    }
 
     .project1 button {
         font-size: 20px;
