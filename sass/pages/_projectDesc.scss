@@ -1,0 +1,439 @@
+//True Taco
+
+body {
+    background-color: #001219;
+    color: #E9D8A6;
+  }
+  
+  
+  #scramble {
+    grid-column: 2/5;
+    grid-row: 1;
+    font-size: 50px;
+    text-align: right;
+    margin-top: 55px;
+  }
+  
+  .imgRb {
+    grid-column: 1/3;
+    grid-row: 1;
+    width: 120px;
+    height: 180px;
+    margin-top: 60px;
+  }
+  
+  .titleRb {
+    grid-column: 1/5;
+    grid-row: 2;
+    font-family: 'DM Serif Display', serif;
+    font-size: 60px;
+  }
+  
+  .pRb {
+    grid-column: 1/5;
+    grid-row: 2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-top: 100px;
+  }
+
+  .titleRb1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 60px;
+    grid-column: 1/5;
+    grid-row: 4;
+    margin-top: 60px;
+  }
+     .titleRb1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 60px;
+    grid-column: 1/5;
+    grid-row: 4;
+  }
+  
+  .pRb1 {
+    grid-column: 1/5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    grid-row: 4;
+    margin-top: 160px;
+  }
+  
+  
+  .pRb1 {
+    grid-column: 1/5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    grid-row: 4;
+    margin-top: 160px;
+  }
+
+  .titleRb2{
+    font-family: 'DM Serif Display', serif;
+    font-size: 60px;
+    grid-column: 1/5;
+    grid-row: 5;
+    margin-top: 100px;
+  }
+  
+  .pRb2 {
+    grid-column: 1/5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    grid-row: 5;
+    margin-top: 210px;
+  }
+  
+  //slider
+  .img_title{
+    font-family: 'DM Serif Display', serif;
+    font-size: 80px;
+    grid-column: 1/5;
+    grid-row: 6;
+    margin-top: 150px;
+  }
+  .taco {
+    position: relative;
+    width: 300px; 
+    height: 250px;
+    overflow: hidden;
+    margin-left: 20px;
+    grid-row: 6;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Light blue cover above the slide show */
+  .taco::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(140, 22, 115, 0.2);
+  }
+  
+  .taco_part {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 7;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transform: translateX(500px);
+    background-image: url(../../images/trueTaco/ChipsSalsaVerde.jpg);
+    background-size: cover; 
+    animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
+  }
+  
+  .taco_part.taco_part-two {
+    z-index: 6;
+    background-image: url(../../images/trueTaco/Empanadas.jpg);
+    background-size: cover; 
+    animation-delay: 20s;
+  }
+  
+  .taco_part.taco_part-three {
+    z-index: 5;
+    background-image: url(../../images/trueTaco/Elsa.jpg);
+    background-size: cover; 
+    animation-delay: 14s;
+  }
+
+  .taco_part.taco_part-four {
+    z-index: 4;
+    background-image: url(../../images/trueTaco/ChileRelleno.jpg);
+    background-size: cover; 
+    animation-delay: 7s;
+  }
+
+  .taco_part.taco_part-five {
+    z-index: 4;
+    background-image: url(../../images/trueTaco/Chips1.jpg);
+    background-size: cover; 
+    animation-delay: 11s;
+  }
+
+  .taco_part.taco_part-six {
+    z-index: 6;
+    background-image: url(../../images/trueTaco/FlourQuesadilla.jpg);
+    background-size: cover; 
+    animation-delay: 6s;
+  }
+
+  .taco_part.taco_part-seven {
+    z-index: 4;
+    background-image: url(../../images/trueTaco/Tacos&Jarrito.jpg);
+    background-size: cover; 
+    animation-delay: 13s;
+  }
+
+  .taco_part.taco_part-eight {
+    z-index: 5;
+    background-image: url(../../images/trueTaco/tamal.jpg);
+    background-size: cover; 
+    animation-delay: 6s;
+  }
+
+  
+  @keyframes opaqTransition {
+    // 3% { transform: translateX(0); }
+    25% { transform: translateX(0); }
+    50% { transform: translateX(250px); } 
+    100% { transform: translateX(250px); } 
+  }
+  
+  #img-container {
+    grid-row: 7;
+    grid-column: 1/5;
+  }
+
+  #img-Taco {
+    width: 300px;
+  }
+
+  @media screen and (min-width:768px) {
+  
+  }
+  
+  @media screen and (min-width:1200px) {
+    #scramble {
+        grid-column: 5/12;
+        font-size: 100px;
+        margin-top: 100px;
+        grid-row: 1;
+      }
+
+      .imgRb {
+        grid-column: 2/4;
+        grid-row: 1;
+        margin-top: 100px;
+      }
+      .titleRb {
+        grid-column: 2/5;
+        font-size: 80px;
+      }
+      
+      .pRb {
+        grid-column: 6/12;
+        font-size: 20px;
+      }
+      .titleRb1{
+        grid-column: 2/5;
+        grid-row: 3;
+        font-size: 80px;
+        margin-top: 20px;
+      }
+      
+      .pRb1 {
+        grid-column: 6/12;
+        font-size: 20px;
+        grid-row: 3;
+      }
+
+      .titleRb2{
+        grid-column: 2/5;
+        grid-row: 4;
+        font-size: 80px;
+        margin-top: 20px;
+      }
+      
+      .pRb2 {
+        grid-column: 6/12;
+        font-size: 20px;
+        grid-row: 4;
+      }
+
+      //slider
+
+
+    .taco {
+        position: relative;
+        width: 800px; 
+        height: 500px;
+        overflow: hidden;
+        margin-left: 165px;
+        grid-row: 6;
+        border-radius: 5px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    #img-container {
+        grid-row: 7;
+        grid-column: 3/13;
+      }
+    
+      #img-Taco {
+        width: 300px;
+      }
+
+    }
+  
+  
+  @media screen and (min-width:1920px) {
+    #scramble {
+      grid-column: 5/12;
+      font-size: 150px;
+      margin-top: 100px;
+      grid-row: 1;
+    }
+    
+    .imgRb {
+        grid-column: 3/6;
+        grid-row: 1;
+        margin-top: 100px;
+        height: 300px;
+        width: 200px;
+    }
+    
+    .titleRb {
+      grid-column: 2/5;
+      font-size: 120px;
+    }
+    
+    .pRb {
+      grid-column: 6/12;
+      font-size: 30px;
+    }
+    .titleRb1{
+      grid-column: 2/5;
+      grid-row: 3;
+      font-size: 120px;
+      margin-top: 30px;
+    }
+    
+    .pRb1 {
+      grid-column: 6/12;
+      font-size: 30px;
+      grid-row: 3;
+    }
+
+    .titleRb2{
+        grid-column: 2/5;
+        grid-row: 4;
+        font-size: 120px;
+        margin-top: 20px;
+      }
+      
+      .pRb2 {
+        grid-column: 6/12;
+        font-size: 30px;
+        grid-row: 4;
+      }
+    //slider
+  
+    .taco {
+        position: relative;
+        width: 800px; 
+        height: 500px;
+        overflow: hidden;
+        grid-row: 6;
+        border-radius: 5px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        margin-left: 450px;
+    }
+  
+  /* Light blue cover above the slide show */
+  .taco::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 900;
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(140, 22, 115, 0.2);
+  }
+  
+  .taco_part {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 7;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transform: translateX(500px);
+    background-image: url(../../images/trueTaco/ChipsSalsaVerde.jpg);
+    background-size: cover; 
+    animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
+  }
+  
+  .taco_part.taco_part-two {
+    z-index: 6;
+    background-image: url(../../images/trueTaco/Empanadas.jpg);
+    background-size: cover; 
+    animation-delay: 5s;
+  }
+  
+  .taco_part.taco_part-three {
+    z-index: 5;
+    background-image: url(../../images/trueTaco/Elsa.jpg);
+    background-size: cover; 
+    animation-delay: 14s;
+  }
+
+  .taco_part.taco_part-four {
+    z-index: 5;
+    background-image: url(../../images/trueTaco/ChileRelleno.jpg);
+    background-size: cover; 
+    animation-delay: 7s;
+  }
+
+  .taco_part.taco_part-five {
+    z-index: 5;
+    background-image: url(../../images/trueTaco/Chips1.jpg);
+    background-size: cover; 
+    animation-delay: 11s;
+  }
+
+  .taco_part.taco_part-six {
+    z-index: 5;
+    background-image: url(../../images/trueTaco/FlourQuesadilla.jpg);
+    background-size: cover; 
+    animation-delay: 6s;
+  }
+
+  .taco_part.taco_part-seven {
+    z-index: 5;
+    background-image: url(../../images/trueTaco/Tacos&Jarrito.jpg);
+    background-size: cover; 
+    animation-delay: 13s;
+  }
+
+  .taco_part.taco_part-eight {
+    z-index: 5;
+    background-image: url(../../images/trueTaco/tamal.jpg);
+    background-size: cover; 
+    animation-delay: 6s;
+  }
+  
+  @keyframes opaqTransition {
+      // 3% { transform: translateX(0); }
+      25% { transform: translateX(0); }
+      50% { transform: translateX(1000px); } 
+      100% { transform: translateX(-1250px); } 
+  }
+
+  
+
+    #img-container {
+        grid-row: 7;    
+        grid-column: 3/13;
+    }
+
+    #img-Taco {
+        width: 300px;
+    }
+  
+  }
+  
+  
+  
