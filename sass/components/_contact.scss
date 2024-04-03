@@ -4,7 +4,7 @@
 }
 
 #container {
-    height: 703px;
+    height: 800px;
     background: rgba( 255, 255, 255, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4px );
@@ -31,14 +31,14 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     color: #F6FAFB;
-    justify-content: center;
+    text-align: center;
     grid-column: 1/5;
     grid-row: 2;
     z-index: 1; 
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
-button {
+button.buttonCont {
     appearance: none;
     background-color: transparent;
     border: 0.125em solid #F6FAFB;
@@ -52,8 +52,6 @@ button {
     font-weight: bold;
     line-height: normal;
     margin: 0;
-    min-height: 50px;
-    min-width: 350px;
     outline: none;
     padding: 1em 2.3em;
     text-align: center;
@@ -80,6 +78,17 @@ button {
    button:active {
     box-shadow: none;
     transform: translateY(0);
+   }
+
+   button {
+    margin-bottom: 10px;
+    grid-column: 1/5;
+    margin-left:20px;
+   }
+
+   .buttonCont {
+    margin-bottom: 40px;
+    grid-column: 1/5;
    }
 
 .circle1 {
