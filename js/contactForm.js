@@ -1,4 +1,6 @@
-(()=>{
+
+export function scrollTo () {
+
 	const form = document.querySelector("#form");
     const feedBack = document.querySelector("#feedback");
 
@@ -50,4 +52,4 @@
         })
     }
     form.addEventListener("submit", regForm);
-})();
+}

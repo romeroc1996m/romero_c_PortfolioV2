@@ -1,4 +1,4 @@
-
+export function scrollTo () {
 
     gsap.registerPlugin(ScrambleTextPlugin);
 
@@ -6,8 +6,7 @@
 
     tl.to("#scramble", {duration:3, scrambleText: {text:"Street Photography", chars:"lowercase", revealDelay: .5}})
 
-
-
+}
 
 
 
