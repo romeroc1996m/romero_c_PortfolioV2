@@ -4,7 +4,7 @@
 }
 
 #container {
-    height: 800px;
+    height: 703px;
     background: rgba( 255, 255, 255, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4px );
@@ -18,24 +18,24 @@
 
 #titleContact {
     font-family: 'DM Serif Display', serif;
-    font-size: 56px;
+    font-size: 50px;
     color: #E9D8A6;
     grid-column: 1/5;
     grid-row: 1;
     justify-content: center;
     display: flex;
-    margin-top: 190px;
+    margin-top: 200px;
 }
 
 #pContact {
     font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     color: #F6FAFB;
-    text-align: center;
+    justify-content: center;
     grid-column: 1/5;
     grid-row: 2;
     z-index: 1; 
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 button {
@@ -52,6 +52,8 @@ button {
     font-weight: bold;
     line-height: normal;
     margin: 0;
+    min-height: 50px;
+    min-width: 350px;
     outline: none;
     padding: 1em 2.3em;
     text-align: center;
@@ -61,8 +63,7 @@ button {
     -webkit-user-select: none;
     touch-action: manipulation;
     will-change: transform;
-    width: 300px;
-    margin-left: 23px;
+    margin-top: 160px;
    }
    
    button:disabled {
@@ -81,10 +82,23 @@ button {
     transform: translateY(0);
    }
 
-   .buttonCont {
-    margin-top: 140px; 
-    margin-left: -70px;
-   }
+.circle1 {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    border: 10px solid #F6FAFB;
+    grid-column: 3/4;
+    grid-row: 1;
+}
+
+.circle2 {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    border: 10px solid #F6FAFB;
+    grid-column: 3/4;
+    grid-row: 4;
+}
 
 @media screen and (min-width:768px) {
 
@@ -117,6 +131,19 @@ button {
         margin-top: 700px;
     }
 
+    .circle1 {
+        height: 600px;
+        width: 600px;
+        grid-column: 10/11;
+    }
+
+    .circle2 {
+        height: 600px;
+        width: 600px;
+        grid-column: 10/11;
+        grid-row: 2;
+        margin-top: 90px;
+    }
 }
 
 @media screen and (min-width:1200px) { 
@@ -162,13 +189,22 @@ button {
     }
     
     button {
-    margin-top: 160px;
-}
-    
-   .buttonCont {
-    margin-top: 850px;  
-    margin-left: 310px;
-   }
+        margin-left: 690px;
+        margin-top: 850px;
+    }
 
+    .circle1 {
+        width: 600px;
+        height: 600px;
+        grid-column: 9;
+        margin-top: 40px;
+
+    }
+
+    .circle2 {
+        width: 600px;
+        height: 600px;
+        grid-column: 9;
+        margin-top: 190px;
+    }
  }
-
