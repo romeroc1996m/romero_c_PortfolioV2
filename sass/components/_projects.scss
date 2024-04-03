@@ -576,8 +576,13 @@
    }
 
    @media screen and (min-width:1200px) {
+    
+    .projectDes {
+        height: 400px;
+      }
+    
     .project {
-        height: 2100px;
+        height: 2200px;
     }
 
     .project1 {
@@ -679,7 +684,7 @@
         }
 
         .project {
-            height: 2200px;
+            height: 3500px;
         }
 
         .project1 { 
@@ -703,6 +708,22 @@
         }
 
         .project6 { 
+            height: 500px;
+        }
+
+        .project7 { 
+            height: 500px;
+        }
+
+        .project8 { 
+            height: 500px;
+        }
+
+        .project9 { 
+            height: 500px;
+        }
+
+        .project10 { 
             height: 500px;
         }
 
