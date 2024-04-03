@@ -24,7 +24,7 @@
     grid-row: 1;
     justify-content: center;
     display: flex;
-    margin-top: 200px;
+    margin-top: 140px;
 }
 
 #pContact {
@@ -38,7 +38,7 @@
     margin-top: 60px;
 }
 
-button.buttonCont {
+button {
     appearance: none;
     background-color: transparent;
     border: 0.125em solid #F6FAFB;
@@ -62,6 +62,7 @@ button.buttonCont {
     touch-action: manipulation;
     will-change: transform;
     margin-top: 160px;
+    width: 300px;
    }
    
    button:disabled {
@@ -80,15 +81,9 @@ button.buttonCont {
     transform: translateY(0);
    }
 
-   button {
-    margin-bottom: 10px;
-    grid-column: 1/5;
-    margin-left:20px;
-   }
-
    .buttonCont {
-    margin-bottom: 40px;
-    grid-column: 1/5;
+    margin-top: 850px;  
+    margin-left: 310px;
    }
 
 .circle1 {
