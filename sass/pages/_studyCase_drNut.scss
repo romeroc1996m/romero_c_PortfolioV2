@@ -93,6 +93,12 @@ body {
   margin-top: 180px;
 }
 
+#video_drNut {
+  grid-row: 9;
+  width: 345px;
+  margin-top: 50px;
+}
+
 
 @media screen and (min-width:768px) {
   #scrambleDr {
@@ -182,7 +188,15 @@ body {
     grid-column: 3/12;
     grid-row: 5;
     margin-left: 50px;
-    margin-top: 480px;
+    margin-top: 370px;
+  }
+
+  #video_drNut {
+    grid-row: 9;
+    width: 500px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 100px;
   }
 }
 
@@ -267,12 +281,21 @@ body {
   }
   
   #imgDr7 {
-    width: 500px;
+    width: 400px;
     height: 1400px;
     grid-column: 4/12;
     grid-row: 6;
     margin-left: 50px;
-    margin-top: 100px;
+    margin-top: 90px;
+  }
+
+  #video_drNut {
+    width: 500px;
+    height: 350px;
+    grid-column: 2/12;
+    grid-row: 5;
+    margin-left: 50px;
+    margin-top: 850px;
   }
 }
 
